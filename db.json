@@ -1,0 +1,280 @@
+{
+  "users": [
+    {
+      "email": "a@a.com",
+      "password": "$2a$10$gcC3pe5u93DmNx1z/JS45eiiYp0oLIKAvICOgU66qmX48Lh0OR6xa",
+      "firstName": "Oliver",
+      "lastName": "Queen",
+      "id": 1
+    },
+    {
+      "email": "p@p.com",
+      "password": "$2a$10$bN2aHTng90CFf/joD8XUguGIqikMaziHMUKBZhJd27nN7y7sXH3W2",
+      "firstName": "Paul",
+      "lastName": "Negoescu",
+      "id": 2
+    },
+    {
+      "email": "test@test.ro",
+      "password": "$2a$10$mHaVvpkhQjCHFOyfhLKNveDT5jKY3DVIWPr.q3WWIe6jTD/6w2trO",
+      "firstName": "Bruce",
+      "lastName": "John",
+      "id": 3
+    }
+  ],
+  "football": [
+    {
+      "id": 1,
+      "name": "CMC Sports Base - Synthetic Court 1",
+      "description": "The CMC sports base in Cluj-Napoca offers for rent a synthetic football field with dimensions of 41x22m.",
+      "facilities": "Parking, terrace, bar, changing rooms, showers, WC, lighting, electronic scoreboard, balls and game shirts.",
+      "price": "130 lei / hour",
+      "hours": "Monday - Friday: 08 - 22, Saturday - Sunday: 08 - 22",
+      "address": "Augustin Bunea Street, No. 1, Gruia district, Cluj-Napoca",
+      "images": "https://live.staticflickr.com/65535/51954506133_ceb67c6216_c.jpg",
+      "latitude": "46.77539",
+      "longitude": "23.57741",
+      "phone": "+40 749.867.285",
+      "email": "bazasportivacmc@yahoo.com"
+    },
+    {
+      "id": 2,
+      "name": "CMC Sports Base - Synthetic Court 2",
+      "description": "The CMC sports base in Cluj-Napoca offers for rent a synthetic football field with dimensions of 41x22m.",
+      "facilities": "Parking, terrace, bar, changing rooms, showers, WC, lighting, electronic scoreboard, balls and game shirts.",
+      "price": "100 lei / hour",
+      "hours": "Monday - Friday: 08 - 22, Saturday - Sunday: 08 - 22",
+      "address": "Augustin Bunea Street, No. 1, Gruia district, Cluj-Napoca",
+      "images": "https://live.staticflickr.com/65535/51953448627_c5eafe3c07_c.jpg",
+      "latitude": "46.77539",
+      "longitude": "23.57741",
+      "phone": "+40 749.867.285",
+      "email": "bazasportivacmc@yahoo.com"
+    },
+    {
+      "id": 3,
+      "name": "Unirea Sports Base - Large Football Court",
+      "description": "One of the most complex sports bases in Cluj Napoca, located at the edge of the forest. It has a synthetic court of official dimensions approved by FRF, 3 football fields with synthetic surface, 3 tennis courts, all being equipped with nightstand. Size - 104 x 62m - 11 x 11 - can be divided into 3 plots of 34 x 62m - 7 x 7.",
+      "facilities": "Parking, terrace, bar, changing rooms, showers, stands, WC, lighting, WiFi.",
+      "price": "500 lei / hour",
+      "hours": "Monday - Friday: 16 - 23, Saturday - Sunday: 16 - 23",
+      "address": "Aleea Clabucet Street, Cluj-Napoca",
+      "images": "https://live.staticflickr.com/65535/51955029120_06303d5963_c.jpg",
+      "latitude": "46.74980",
+      "longitude": "23.54237",
+      "phone": "+40 741.631.085",
+      "email": "unireacj@yahoo.com"
+    },
+    {
+      "id": 4,
+      "name": "Unirea Sports Base - Synthetic Court 1",
+      "description": "Synthetic football field - 52 x 23m - 6 x 6",
+      "facilities": "Parking, terrace, bar, changing rooms, showers, stands, WC, lighting, WiFi.",
+      "price": "120 lei / hour",
+      "hours": "Monday - Friday: 16 - 23, Saturday - Sunday: 16 - 23",
+      "address": "Aleea Clabucet Street, Cluj-Napoca",
+      "images": "https://live.staticflickr.com/65535/51955029105_7767ae0d75_c.jpg",
+      "latitude": "46.74980",
+      "longitude": "23.54237",
+      "phone": "+40 741.631.085",
+      "email": "unireacj@yahoo.com"
+    },
+    {
+      "id": 5,
+      "name": "Unirea Sports Base - Synthetic Court 2",
+      "description": "Synthetic football field - 7 x 7",
+      "facilities": "Parking, terrace, bar, changing rooms, showers, stands, WC, lighting, WiFi.",
+      "price": "120 lei / hour",
+      "hours": "Monday - Friday: 16 - 23, Saturday - Sunday: 16 - 23",
+      "address": "Aleea Clabucet Street, Cluj-Napoca",
+      "images": "https://live.staticflickr.com/65535/51955029100_204ebb3009_c.jpg",
+      "latitude": "46.74980",
+      "longitude": "23.54237",
+      "phone": "+40 741.631.085",
+      "email": "unireacj@yahoo.com"
+    },
+    {
+      "id": 6,
+      "name": "Unirea Sports Base - Synthetic Court 3",
+      "description": "Synthetic football field - 57 x 33m - 8 x 8",
+      "facilities": "Parking, terrace, bar, changing rooms, showers, stands, WC, lighting, WiFi.",
+      "price": "180 lei / hour",
+      "hours": "Monday - Friday: 16 - 23, Saturday - Sunday: 16 - 23",
+      "address": "Aleea Clabucet Street, Cluj-Napoca",
+      "images": "https://live.staticflickr.com/65535/51953448607_dc23b21901_b.jpg",
+      "latitude": "46.74980",
+      "longitude": "23.54237",
+      "phone": "+40 741.631.085",
+      "email": "unireacj@yahoo.com"
+    }
+  ],
+  "tennis": [
+    {
+      "id": 7,
+      "name": "Tenis Club Cluj Ciprian Porumb 1",
+      "description": "The club has two tennis courts, locker rooms, showers, a reception area and a refreshment area. In winter, the grounds are covered with a state-of-the-art double-walled balloon. You can enjoy refreshments, beer, even food (pizza, pasta, salads, etc.) after training, all on a beautiful and carefully arranged terrace.",
+      "facilities": "Parking, terrace, bar, changing rooms, showers, WC, lighting, covered ground, WiFi.",
+      "price": "Between 8-16: 85 lei / hour, Between 16-23: 120 lei / hour",
+      "hours": "Monday - Friday: 08 - 23, Saturday - Sunday: 08 - 23",
+      "address": "Augustin Bunea Street, No. 1, Gruia district, Cluj-Napoca",
+      "images": "https://live.staticflickr.com/65535/51954723603_522196a7e9_c.jpg",
+      "latitude": "46.77559",
+      "longitude": "23.57762",
+      "phone": "+40 722.671.889",
+      "email": "contact@porumbtenis.ro"
+    },
+    {
+      "id": 8,
+      "name": "Tenis Club Cluj Ciprian Porumb 2",
+      "description": "The club has two tennis courts, locker rooms, showers, a reception area and a refreshment area. In winter, the grounds are covered with a state-of-the-art double-walled balloon. You can enjoy refreshments, beer, even food (pizza, pasta, salads, etc.) after training, all on a beautiful and carefully arranged terrace.",
+      "facilities": "Parking, terrace, bar, changing rooms, showers, WC, lighting, covered ground, WiFi.",
+      "price": "Between 8-16: 85 lei / hour, Between 16-23: 120 lei / hour",
+      "hours": "Monday - Friday: 08 - 23, Saturday - Sunday: 08 - 23",
+      "address": "Augustin Bunea Street, No. 1, Gruia district, Cluj-Napoca",
+      "images": "https://live.staticflickr.com/65535/51954723568_848766cf48_z.jpg",
+      "latitude": "46.77559",
+      "longitude": "23.57762",
+      "phone": "+40 722.671.889",
+      "email": "contact@porumbtenis.ro"
+    },
+    {
+      "id": 9,
+      "name": "Unirea Sports Base - Tennis Court 1",
+      "description": "Tennis Base Unirea offers tennis courts with clay surface, covered during the winter, with heated and presostatic structure. The fields have a surface with high quality slag, the athletes have a terrace where they can relax after the game, locker rooms, wi-fi, and parking.",
+      "facilities": "Parking, terrace, bar, changing rooms, showers, WC, lighting, WiFi.",
+      "price": "Between 07-16: 100 lei / hour, Between 16-24: 120 lei / hour",
+      "hours": "Monday - Friday: 07 - 24, Saturday - Sunday: 08 - 23",
+      "address": "Aleea Clabucet Street, Cluj-Napoca",
+      "images": "https://live.staticflickr.com/65535/51954655296_5cfa46d0a0_c.jpg",
+      "latitude": "46.74980",
+      "longitude": "23.54237",
+      "phone": "+40 741.631.085",
+      "email": "unireacj@yahoo.com"
+    },
+    {
+      "id": 10,
+      "name": "Unirea Sports Base - Tennis Court 2",
+      "description": "Tennis Base Unirea offers tennis courts with clay surface, covered during the winter, with heated and presostatic structure. The fields have a surface with high quality slag, the athletes have a terrace where they can relax after the game, locker rooms, wi-fi, and parking.",
+      "facilities": "Parking, terrace, bar, changing rooms, showers, WC, lighting, WiFi.",
+      "price": "Between 07-16: 100 lei / hour, Between 16-24: 120 lei / hour",
+      "hours": "Monday - Friday: 07 - 24, Saturday - Sunday: 08 - 23",
+      "address": "Aleea Clabucet Street, Cluj-Napoca",
+      "images": "https://live.staticflickr.com/65535/51954655271_851011c76d_c.jpg",
+      "latitude": "46.74980",
+      "longitude": "23.54237",
+      "phone": "+40 741.631.085",
+      "email": "unireacj@yahoo.com"
+    },
+    {
+      "id": 11,
+      "name": "Unirea Sports Base - Tennis Court 3",
+      "description": "Tennis Base Unirea offers tennis courts with clay surface, covered during the winter, with heated and presostatic structure. The fields have a surface with high quality slag, the athletes have a terrace where they can relax after the game, locker rooms, wi-fi, and parking.",
+      "facilities": "Parking, terrace, bar, changing rooms, showers, WC, lighting, WiFi.",
+      "price": "Between 07-16: 100 lei / hour, Between 16-24: 120 lei / hour",
+      "hours": "Monday - Friday: 07 - 24, Saturday - Sunday: 08 - 23",
+      "address": "Aleea Clabucet Street, Cluj-Napoca",
+      "images": "https://live.staticflickr.com/65535/51954655241_13af0de93a_c.jpg",
+      "latitude": "46.74980",
+      "longitude": "23.54237",
+      "phone": "+40 741.631.085",
+      "email": "unireacj@yahoo.com"
+    },
+    {
+      "id": 12,
+      "name": "OH Sports Complex",
+      "description": "The OH Sport complex is the first private gym in Cluj-Napoca and is located in Manastur district. The main large hall has an area of 600 square meters. It is versatile, being equipped with everything necessary to practice a lot of indoor sports such as tennis, volleyball, basketball, badminton etc.",
+      "facilities": "Parking, terrace, bar, changing rooms, showers, stands, WC, lighting, WiFi.",
+      "price": "120 lei / hour",
+      "hours": "Monday - Friday: 07 - 24, Saturday - Sunday: 07 - 24",
+      "address": "Marisel Street, No 17, Cluj-Napoca",
+      "images": "https://live.staticflickr.com/65535/51954723623_070b66049d_c.jpg",
+      "latitude": "46.74782",
+      "longitude": "23.55576",
+      "phone": "+40 755.344.585",
+      "email": "ohsportcomplex@yahoo.com"
+    }
+  ],
+  "basketball": [
+    {
+      "id": 13,
+      "name": "OH Sports Complex",
+      "description": "The OH Sport complex is the first private gym in Cluj-Napoca and is located in Manastur district. The main large hall has an area of 600 square meters. It is versatile, being equipped with everything necessary to practice a lot of indoor sports such as tennis, volleyball, basketball, badminton etc.",
+      "facilities": "Parking, terrace, bar, changing rooms, showers, stands, WC, lighting, WiFi, SPA, sauna, jacuzzi.",
+      "price": "120 lei / hour",
+      "hours": "Monday - Friday: 07 - 24, Saturday - Sunday: 07 - 24",
+      "address": "Marisel Street, No 17, Cluj-Napoca",
+      "images": "https://live.staticflickr.com/65535/51954998419_b212afcf5f_c.jpg",
+      "latitude": "46.74782",
+      "longitude": "23.55576",
+      "phone": "+40 755.344.585",
+      "email": "ohsportcomplex@yahoo.com"
+    }
+  ],
+  "table_tennis": [
+    {
+      "id": 14,
+      "name": "OH Sports Complex",
+      "description": "The OH Sport complex is the first private gym in Cluj-Napoca and is located in Manastur district. The main large hall has an area of 600 square meters. It is versatile, being equipped with everything necessary to practice a lot of indoor sports such as tennis, volleyball, basketball, badminton etc.",
+      "facilities": "Parking, terrace, bar, changing rooms, showers, stands, WC, lighting, WiFi, SPA, sauna, jacuzzi.",
+      "price": "120 lei / hour",
+      "hours": "Monday - Friday: 07 - 24, Saturday - Sunday: 07 - 24",
+      "address": "Marisel Street, No 17, Cluj-Napoca",
+      "images": "https://live.staticflickr.com/65535/51955292690_9534d2fc6a_c.jpg",
+      "latitude": "46.74782",
+      "longitude": "23.55576",
+      "phone": "+40 755.344.585",
+      "email": "ohsportcomplex@yahoo.com"
+    }
+  ],
+  "favorites": [
+    {
+      "userId": 3,
+      "name": "Tenis Club Cluj Ciprian Porumb 2",
+      "images": "https://live.staticflickr.com/65535/51954723568_848766cf48_z.jpg",
+      "phone": "+40 722.671.889",
+      "id": "PuAuGAi"
+    },
+    {
+      "userId": 1,
+      "name": "Unirea Sports Base - Large Football Court",
+      "images": "https://live.staticflickr.com/65535/51955029120_06303d5963_c.jpg",
+      "phone": "+40 741.631.085",
+      "id": "b_BiDkX"
+    },
+    {
+      "userId": 1,
+      "name": "Unirea Sports Base - Synthetic Court 1",
+      "images": "https://live.staticflickr.com/65535/51955029105_7767ae0d75_c.jpg",
+      "phone": "+40 741.631.085",
+      "id": "Krn_aEj"
+    },
+    {
+      "userId": 1,
+      "name": "Tenis Club Cluj Ciprian Porumb 1",
+      "images": "https://live.staticflickr.com/65535/51954723603_522196a7e9_c.jpg",
+      "phone": "+40 722.671.889",
+      "id": "UfEh8AI"
+    },
+    {
+      "userId": 1,
+      "name": "Tenis Club Cluj Ciprian Porumb 2",
+      "images": "https://live.staticflickr.com/65535/51954723568_848766cf48_z.jpg",
+      "phone": "+40 722.671.889",
+      "id": "MtY6MlT"
+    },
+    {
+      "userId": 1,
+      "name": "Unirea Sports Base - Tennis Court 1",
+      "images": "https://live.staticflickr.com/65535/51954655296_5cfa46d0a0_c.jpg",
+      "phone": "+40 741.631.085",
+      "id": "200aGg3"
+    },
+    {
+      "userId": 1,
+      "name": "Unirea Sports Base - Tennis Court 2",
+      "images": "https://live.staticflickr.com/65535/51954655271_851011c76d_c.jpg",
+      "phone": "+40 741.631.085",
+      "id": "9-kz91F"
+    }
+  ]
+}

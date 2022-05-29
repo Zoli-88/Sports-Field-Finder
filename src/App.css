@@ -1,0 +1,2484 @@
+/*Global styling*/
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--eggshell);
+
+}
+
+:root {
+    --richBlack: #0D1321;
+    --darkBlue: #1d2d44;
+    --mediumBlue: #3e5c76;
+    --lighterBlue: #748Cab;
+    --eggshell: #f0ebd8;
+}
+
+body {
+    background-color: var(--richBlack);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    text-align: center;
+}
+
+/*Global styling*/
+
+/*Navbar styling*/
+
+.nav {
+    background-color: var(--darkBlue);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.navlinks {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+ul>li {
+    list-style-type: none;
+}
+
+ul>li>a {
+    text-decoration: none;
+}
+
+.myProfile {
+    padding: 0 1rem;
+}
+
+ul>li>a:hover {
+    color: var(--lighterBlue);
+}
+
+ul>li:nth-of-type(6) {
+    margin-left: auto;
+}
+
+@media (max-width: 650px) {
+    ul.navlinks>li:nth-child(6) {
+        margin: 0;
+    }
+}
+
+
+/*Navbar styling*/
+
+/* HomePage styling */
+
+/* Sports Field Finder (top) Section */
+
+.background {
+
+
+    background-image: url("./Images/Background/grass-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.firstContainer {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.75rem;
+    min-height: 45vh;
+    border-top: 0.2rem solid var(--mediumBlue);
+    border-right: 0.2rem solid var(--mediumBlue);
+    border-left: 0.2rem solid var(--mediumBlue);
+}
+
+.firstContainer>h1,
+.firstContainer>h2 {
+    max-width: 80%;
+}
+
+/* Media query to resize title and subtitle for smaller devices  */
+
+@media (max-width: 650px) {
+
+    .firstContainer>h1 {
+        font-size: x-large;
+    }
+
+    .firstContainer>h2 {
+        font-size: large;
+    }
+}
+
+
+
+/* Media query to resize title and subtitle for smaller devices  */
+
+/* Sports Field Finder (top) Section */
+
+
+/* How it works (second) Section */
+.form {
+
+    background-color: var(--darkBlue);
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+}
+
+.form>form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.label {
+    padding-right: 0.75rem;
+    color: var(--eggshell);
+    font-size: large;
+    font-weight: 600;
+}
+
+.dropdown {
+    margin-right: 0.5rem;
+    font-size: medium;
+    font-weight: 500;
+    color: var(--eggshell);
+    background-color: var(--darkBlue);
+    border-radius: 0.25rem;
+    border: 0.01rem solid var(--eggshell);
+}
+
+.dropdown:hover,
+.searchButton:hover {
+    cursor: pointer;
+}
+
+.option {
+    background-color: var(--lighterBlue);
+    color: var(--darkBlue);
+    font-weight: 500;
+    border: 0.05rem solid var(--eggshell);
+}
+
+
+.searchButton {
+    padding: 0rem 1rem;
+    background-color: var(--lighterBlue);
+    font-size: medium;
+    font-weight: 500;
+    color: var(--eggshell);
+    border-radius: 0.25rem;
+    border: 0.01rem solid var(--eggshell);
+}
+
+.secondContainer {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.75rem;
+    min-height: 50vh;
+    border-right: 0.2rem solid var(--mediumBlue);
+    border-left: 0.2rem solid var(--mediumBlue);
+    border-top: 0.2rem solid var(--mediumBlue);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+
+.secondContainer>h1,
+.secondContainer>p {
+    max-width: 80%;
+}
+
+.secondContainer>p:nth-child(4) {
+    padding-bottom: 1rem;
+}
+
+/* Media query for the search form on home page and resize section title "How it works" */
+
+@media (max-width: 368px) {
+    .form>form {
+        gap: 0.5rem 0rem;
+    }
+}
+
+/* Media query for the search form on home page and resize section title "How it works" */
+
+@media (max-width: 650px) {
+
+    .secondContainer>h1 {
+        font-size: x-large;
+    }
+
+}
+
+
+/* How it works (second) Section */
+
+/* Recently added Sport facilities (third) section */
+
+.thirdContainerBackground {
+    background-color: var(--mediumBlue);
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+div.thirdContainerBackground>h2 {
+    padding: 1rem;
+}
+
+
+
+.thirdContainer,
+.partners {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem 0.5rem;
+
+
+}
+
+.thirdContainer {
+    padding: 2rem 1rem 0rem 1rem;
+}
+
+div.thirdContainer>div>img {
+    width: 464px;
+    height: 250px;
+    box-shadow: 0.2rem 0.4rem 0.5rem var(--richBlack);
+
+}
+
+#root>div:nth-child(5)>h2,
+div.thirdContainer>div>h3,
+h4 {
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+div.thirdContainer>div>p {
+    width: 450px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0rem;
+}
+
+
+
+/* Media queries for recently added Sport Facilities images and paragraphs, resize section subtitle Recently added sport facilities  */
+@media (max-width: 970px) {
+    div.thirdContainer>div>img {
+        width: 600px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 650px) {
+    div.thirdContainer>div>img {
+        width: 400px;
+        height: 250px;
+    }
+
+    div.thirdContainer>div>p {
+        width: 400px;
+
+    }
+
+    .thirdContainerBackground>h2 {
+        font-size: larger;
+    }
+
+}
+
+
+
+@media (max-width: 400px) {
+    div.thirdContainer>div>img {
+        width: 300px;
+        height: 200px;
+    }
+
+    div.thirdContainer>div>p {
+        width: 300px;
+
+    }
+}
+
+
+
+/* Media queries for recently added Sport Facilities images and paragraphs resize section subtitle Recently added sport facilities */
+
+/* Recently added Sport facilities (third) section */
+
+/* Partners styling */
+
+.partners {
+    padding: 1rem 1rem 0rem 1rem;
+}
+
+.partnersContainer {
+
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1rem 0rem 2rem 0rem;
+    border-top: 0.2rem solid var(--mediumBlue);
+    border-left: 0.2rem solid var(--mediumBlue);
+    border-right: 0.2rem solid var(--mediumBlue);
+}
+
+
+
+div.partnersContainer>h2 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+}
+
+div.partners>img {
+    width: 225px;
+    height: 110px;
+}
+
+div.partners>img:nth-of-type(2),
+div.partners>img:nth-of-type(4),
+div.partners>img:nth-of-type(6) {
+    background-color: var(--eggshell);
+}
+
+/* Partners styling */
+
+/* HomePage styling */
+
+
+
+
+/* Footer styling */
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1440px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 1rem 0.5rem;
+    margin: 0 auto;
+    padding: 2rem 1rem 1rem 1rem;
+    border: 0.2rem solid var(--mediumBlue);
+
+}
+
+.footer>div>h2,
+.footer>div>p {
+
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+
+.footer>div {
+    width: 30%;
+}
+
+.footer>div>h2 {
+    color: var(--mediumBlue);
+    padding-bottom: 0.75rem;
+}
+
+.footer>div>ul>li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.2rem;
+    padding-bottom: 0.5rem;
+}
+
+/* Footer contact Icons styling, affects the icons which appear in faq and contact page */
+.homeIcon {
+    fill: palegoldenrod;
+
+}
+
+.emailIcon {
+    fill: sandybrown;
+
+}
+
+.phoneIcon {
+    fill: rgb(7, 150, 7);
+    background-color: var(--darkBlue);
+}
+
+/* Footer contact Icons styling, affects the icons which appear in faq and contact page */
+
+
+
+
+
+/* Footer sport Icons styling */
+
+.footer>div>ul>li:nth-child(1)>* {
+    fill: seashell;
+}
+
+.footer>div>ul>li:nth-child(2)>* {
+    fill: wheat;
+}
+
+.footer>div>ul>li:nth-child(3)>* {
+    fill: sienna;
+}
+
+.footer>div>ul>li:nth-child(4)>* {
+    fill: steelblue;
+}
+
+/* Footer sport Icons styling */
+
+/* Footer social Icons styling */
+
+.footer>div:nth-child(3)>div>a>i {
+    background-color: var(--lighterBlue);
+    padding: 0.3rem 0.5rem;
+    margin: 0rem 0.2rem 0rem 0rem;
+}
+
+.footer>div:nth-child(3)>div>a>i>* {
+    fill: var(--richBlack);
+}
+
+/* Footer social Icons styling */
+
+
+/* Media queries for footer */
+
+@media (max-width: 700px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer>div {
+        width: auto;
+    }
+
+}
+
+/* Media queries for footer */
+
+/* Footer styling */
+
+
+
+
+/* About page styling */
+
+/* About us (top) section */
+
+.backgroundAbout {
+    background-image: url("./Images/Background/nature-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.backgroundAbout>h1 {
+    color: var(--darkBlue);
+}
+
+/* About us (top) section */
+
+/* Promoting a healthier lifestyle (second) section */
+
+.spanSportsFieldFinder {
+    font-size: large;
+    font-weight: bold;
+    color: var(--lighterBlue);
+}
+
+.spanSports {
+    color: var(--lighterBlue);
+    font-weight: bold;
+}
+
+.spanSportsLink {
+    text-decoration: none;
+}
+
+/* Promoting a healthier lifestyle (second) section */
+
+/* Benefits of using SFF (third) section */
+
+
+
+div.thirdContainerBackground>h1 {
+    padding-top: 2rem;
+    margin: 0 auto;
+}
+
+div.aboutBenefits {
+    padding: 0rem 1rem 1rem 1rem;
+
+}
+
+div.aboutBenefits>h2 {
+    text-align: left;
+
+}
+
+div.thirdContainerBackground>ul>li>i>* {
+
+    fill: var(--lighterBlue);
+    width: 2rem;
+    height: 1rem;
+    margin: 0 0.5rem;
+    background-color: var(--richBlack);
+    border: 1px solid var(--eggshell);
+}
+
+div.thirdContainerBackground>ul>li>* {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Benefits of using SFF (third) section */
+
+/* Media query for Benefits of using SFF section title */
+
+@media (max-width: 650px) {
+
+    .aboutBenefits>h1 {
+        font-size: x-large;
+    }
+
+    .aboutBenefits>h2 {
+        font-size: large;
+    }
+}
+
+/* Media query for Benefits of using SFF section title */
+
+
+
+/* About page styling */
+
+
+
+
+
+
+/* Sports Page Styling */
+
+
+/* Sports (Top) Section */
+.backgroundSports {
+    background-image: url("./Images/Background/sky-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+/* Sports (Top) Section */
+
+/* Category (second) Section */
+
+main {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.sportCategoriesBackground {
+    background-color: var(--darkBlue);
+    border-right: 0.2rem solid var(--mediumBlue);
+    border-left: 0.2rem solid var(--mediumBlue);
+    border-top: 0.2rem solid var(--mediumBlue);
+}
+
+.sportCategoriesHeading {
+    margin: 0 auto;
+    padding: 1rem;
+
+}
+
+
+.sportCategoriesContainer {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1rem 0.5rem;
+    padding: 1rem;
+
+
+}
+
+
+.sportCategoriesLink>img {
+    border: 0.2rem solid var(--lighterBlue);
+    border-radius: 0.2rem;
+    height: 230px;
+    width: 340px;
+    opacity: 100%;
+    transition: 0.5s ease;
+
+}
+
+.sportCategoriesSubContainer {
+    position: relative;
+    transition: 0.5s ease;
+}
+
+
+
+.sportCategoriesOverlayText {
+
+    width: 100%;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transition: 0.2s ease;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.sportCategoriesSubContainer:hover .sportCategoriesOverlayText {
+    opacity: 1;
+}
+
+
+.sportCategoriesSubContainer:hover .sportCategoriesLink>img {
+    opacity: 50%;
+}
+
+.sportCategoriesSubContainer:hover {
+    transform: scale(1.01, 1.01);
+}
+
+/* Media query for category images */
+
+
+@media (max-width: 1422px) {
+    .sportCategoriesLink>img {
+        width: 650px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 1346px) {
+    .sportCategoriesLink>img {
+        width: 600px;
+        height: 380px;
+    }
+}
+
+@media (max-width: 1246px) {
+    .sportCategoriesLink>img {
+        width: 590px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 1226px) {
+    .sportCategoriesLink>img {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+
+@media (max-width: 1046px) {
+    .sportCategoriesLink>img {
+        width: 450px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 946px) {
+    .sportCategoriesLink>img {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .sportCategoriesLink>img {
+        width: 700px;
+        height: 400px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .sportCategoriesLink>img {
+        width: 650px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 675px) {
+    .sportCategoriesLink>img {
+        width: 550px;
+        height: 290px;
+    }
+}
+
+@media (max-width: 575px) {
+    .sportCategoriesLink>img {
+        width: 450px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 475px) {
+    .sportCategoriesLink>img {
+        width: 375px;
+        height: 230px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .sportCategoriesLink>img {
+        width: 300px;
+        height: 180px;
+    }
+}
+
+
+/* Media query for category images */
+
+
+/* Media query for Categories title */
+
+@media (max-width: 650px) {
+
+    .sportCategoriesHeading {
+        font-size: x-large;
+    }
+
+}
+
+/* Media query for Categories title */
+
+/* Category (second) Section */
+
+/* Sports Properties List Page Styling */
+
+.listTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    margin: 0 auto;
+
+}
+
+.listIntroductionText {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.spanSports {
+    color: var(--lighterBlue);
+    font-weight: bold;
+}
+
+.spanSportsLink {
+    text-decoration: none;
+}
+
+.listHeaderContainer {
+    border-right: 0.2rem solid var(--mediumBlue);
+    border-left: 0.2rem solid var(--mediumBlue);
+    border-top: 0.2rem solid var(--mediumBlue);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header icons styling */
+
+.soccerBallIcon {
+    fill: seashell;
+}
+
+.basketBallIcon {
+    fill: sienna;
+}
+
+.tennisIcon {
+    fill: wheat;
+}
+
+.tableTennisIcon {
+    fill: steelblue;
+}
+
+
+/* Header icons styling */
+
+.listContainer {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem 0.5rem;
+    padding: 1rem;
+    border-right: 0.2rem solid var(--mediumBlue);
+    border-left: 0.2rem solid var(--mediumBlue);
+}
+
+.listItems {
+    border: 0.1rem solid var(--lighterBlue);
+    border-radius: 0.2rem;
+    transition: 0.5s ease;
+
+}
+
+.listItemLinks {
+    text-decoration: none;
+}
+
+a.listItemLinks>p {
+    border-top: 0.1rem solid var(--lighterBlue);
+    margin: 0 auto;
+    padding: 0.5rem;
+    font-size: large;
+    font-weight: bolder;
+    background-color: var(--darkBlue);
+    color: var(--eggshell);
+    transition: 0.5s ease;
+}
+
+a.listItemLinks>img {
+    height: 275px;
+    width: 450px;
+    opacity: 100%;
+    transition: 0.5s ease;
+
+}
+
+a.listItemLinks>img:hover {
+    opacity: 80%;
+}
+
+div.listItemLinks:hover {
+    transform: scale(1.01, 1.01);
+}
+
+div.listItems:hover a.listItemLinks>p {
+    background-color: var(--richBlack);
+}
+
+/* Media query for properties list images  */
+
+@media (max-width: 1414px) {
+    .listItems {
+        width: 400px;
+        height: auto;
+    }
+
+    a.listItemLinks>img {
+        width: 397px;
+        height: 225px;
+    }
+}
+
+
+
+
+@media (max-width: 953px) {
+    .listItems {
+        width: 700px;
+        height: auto;
+    }
+
+    a.listItemLinks>img {
+        width: 697px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 750px) {
+    .listItems {
+        width: 600px;
+        height: auto;
+    }
+
+    a.listItemLinks>img {
+        width: 597px;
+        height: 380px;
+    }
+}
+
+@media (max-width: 625px) {
+    .listItems {
+        width: 550px;
+        height: auto;
+    }
+
+    a.listItemLinks>img {
+        width: 547px;
+        height: 350px;
+    }
+}
+
+
+@media (max-width: 560px) {
+    .listItems {
+        width: 500px;
+        height: auto;
+    }
+
+    a.listItemLinks>img {
+        width: 497px;
+        height: 200px;
+    }
+}
+
+
+@media (max-width: 560px) {
+    .listItems {
+        width: 500px;
+        height: auto;
+    }
+
+    a.listItemLinks>img {
+        width: 497px;
+        height: 225px;
+    }
+}
+
+@media (max-width: 520px) {
+    .listItems {
+        width: 450px;
+        height: auto;
+    }
+
+    a.listItemLinks>img {
+        width: 447px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 475px) {
+    .listItems {
+        width: 400px;
+        height: auto;
+    }
+
+    a.listItemLinks>img {
+        width: 397px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 425px) {
+    .listItems {
+        width: 350px;
+        height: auto;
+    }
+
+    a.listItemLinks>img {
+        width: 347px;
+        height: 175px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .listItems {
+        width: 300px;
+        height: auto;
+    }
+
+    a.listItemLinks>img {
+        width: 297px;
+        height: 155px;
+    }
+}
+
+
+/* Media query for properties list images  */
+
+
+/* Media query for properties list section title */
+
+@media (max-width: 650px) {
+
+    .listTitle {
+        font-size: x-large;
+    }
+
+}
+
+/* Media query for properties list section title */
+
+/* Sports Properties List Page Styling */
+
+/* Sports Details Styling */
+
+
+
+.detailsHeaderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: var(--mediumBlue);
+    padding-bottom: 1rem;
+
+}
+
+.detailsTitle {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+
+.detailsWrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    border-right: 0.2rem solid var(--mediumBlue);
+    border-left: 0.2rem solid var(--mediumBlue);
+
+
+
+}
+
+.detailsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem 0.5rem;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: var(--darkBlue);
+}
+
+.detailsContainer>div>img {
+    height: 350px;
+    width: 500px;
+
+    border: 0.2rem solid var(--lighterBlue);
+    border-radius: 0.2rem;
+}
+
+
+
+.detailsContainer>div:nth-child(2) {
+
+    height: 350px;
+    width: 510px;
+    align-self: flex-start;
+
+    border: 0.2rem solid var(--lighterBlue);
+    border-radius: 0.2rem;
+
+}
+
+.detailsContainer>div:nth-child(3) {
+    height: 350px;
+    width: 370px;
+    align-self: flex-start;
+    border: 0.2rem solid var(--lighterBlue);
+    border-radius: 0.2rem;
+
+}
+
+.detailsContainer>div:nth-child(4) {
+    height: 415px;
+    width: 1017px;
+
+
+}
+
+.detailsContainer>div:nth-child(5) {
+    width: 373px;
+    height: 415px;
+
+}
+
+
+.detailsContainer>div:nth-child(4),
+.detailsContainer>div:nth-child(5) {
+    border: 0.2rem solid var(--lighterBlue);
+    border-radius: 0.2rem;
+}
+
+
+
+.detailsSubTitle,
+.facilitiesSubTitle {
+    margin: 0 auto;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: var(--lighterBlue);
+
+}
+
+.detailsParagraphs {
+    text-align: left;
+    padding: 1rem;
+}
+
+/* Description icons styling */
+
+.descriptionIcons {
+
+    display: inline-block;
+    vertical-align: text-bottom;
+    font-size: 1.3rem;
+    margin-right: 0.2rem;
+}
+
+.descriptionIconsClock {
+    fill: paleturquoise;
+}
+
+.descriptionIconsHome {
+    fill: palegoldenrod;
+}
+
+.descriptionIconsPrice {
+    fill: greenyellow;
+}
+
+.descriptionIconsPhone {
+    fill: rgb(7, 150, 7);
+}
+
+.descriptionIconsEmail {
+    fill: sandybrown;
+}
+
+
+
+/* Description icons styling */
+
+.spanDetailsParagraphs {
+    color: var(--mediumBlue);
+    font-size: large;
+    font-weight: bolder;
+    margin-right: 0.2rem;
+
+}
+
+
+
+.facilitiesContainer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+div.facilitiesContainer>ul>li {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+
+/* Media queries for sports details containers (image, map, details, facilities, weatherwidget) */
+
+
+@media (max-width: 1438px) {
+    .detailsContainer>div:nth-child(1) {
+        order: 0;
+
+    }
+
+    .detailsContainer>div>img {
+        width: 510px;
+    }
+
+    .detailsContainer>div:nth-child(2) {
+        order: 1;
+
+    }
+
+    .detailsContainer>div:nth-child(3) {
+        order: 5;
+        height: 355.2px;
+    }
+
+    .detailsContainer>div:nth-child(4) {
+        order: 3;
+        width: 1030px;
+        height: auto;
+
+    }
+
+    .detailsContainer>div:nth-child(5) {
+        order: 4;
+        width: 652px;
+        height: 355.2px;
+    }
+
+
+}
+
+@media (max-width: 1069px) {
+    .detailsContainer>div:nth-child(5) {
+        height: auto;
+        width: 1030px;
+    }
+
+    .detailsContainer>div:nth-child(3) {
+        height: auto;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+    .detailsContainer>div:nth-child(2) {
+        width: 507px;
+        height: auto;
+    }
+
+    .detailsTitle {
+        font-size: x-large;
+    }
+
+    .detailsContainer>div:nth-child(1) {
+        width: 507px;
+
+    }
+}
+
+@media (max-width: 520px) {
+    .detailsContainer>div:nth-child(2) {
+        width: 407px;
+        height: auto;
+    }
+
+    .detailsContainer>div:nth-child(1) {
+        width: 407px;
+
+    }
+
+    .detailsContainer>div>img {
+        width: 407px;
+        height: 250px;
+    }
+
+    .detailsTitle {
+        font-size: medium;
+    }
+}
+
+
+@media (max-width: 425px) {
+
+    .detailsContainer>div:nth-child(2) {
+        width: 307px;
+        height: auto;
+    }
+
+    .detailsContainer>div:nth-child(1) {
+        width: 307px;
+
+    }
+
+    .detailsContainer>div>img {
+        width: 307px;
+        height: 200px;
+    }
+
+
+
+}
+
+
+
+
+/* Media queries for sports details containers (image, map, details, facilities, weatherwidget) */
+
+/* Sports Details Styling */
+
+/* Weather Widget Styling */
+
+.weatherWidgetContainer {
+    margin: 0 auto;
+    max-width: 1440px;
+
+    background-color: var(--richBlack);
+
+}
+
+.weatherWidgetTempDesc {
+    display: flex;
+    align-items: center;
+}
+
+.weatherWidgetMoreInfoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+
+}
+
+div.weatherWidgetMoreInfoContainer>p {
+    padding-left: 1rem;
+}
+
+div.weatherWidgetMoreInfoContainer>p>i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+
+}
+
+div.weatherWidgetContainer>h2 {
+    padding: 0 1rem;
+
+}
+
+div.weatherWidgetContainer>p {
+    text-align: left;
+    padding: 1rem 0rem 0rem 1rem;
+}
+
+div.weatherWidgetTempDesc>p {
+    font-size: x-large;
+}
+
+div.weatherWidgetContainer p,
+div.weatherWidgetContainer h2 {
+    color: var(--lighterBlue);
+}
+
+div.weatherWidgetMoreInfoContainer>p:nth-child(3)>i>* {
+    fill: gray;
+}
+
+div.weatherWidgetMoreInfoContainer>p:nth-child(4)>i>* {
+    fill: blue;
+}
+
+div.weatherWidgetMoreInfoContainer>p:nth-child(5)>i>* {
+    fill: yellow;
+}
+
+.sevenDayForecastContainer {
+    display: flex;
+    align-self: stretch;
+    background-color: var(--darkBlue);
+
+}
+
+div.sevenDayForecastContainer>div>p {
+    color: var(--lighterBlue);
+}
+
+div.sevenDayForecastContainer>div>p:nth-child(1) {
+    font-size: normal;
+    line-height: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+div.sevenDayForecastContainer>div>p:nth-child(2) {
+    font-size: normal;
+    text-align: center;
+}
+
+
+
+/* Weather Widget Styling */
+
+/* 404 Page Not Found styling */
+
+.pageNotFound {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    gap: .5rem;
+    background-color: var(--mediumBlue);
+}
+
+main.pageNotFound>h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12rem;
+    text-shadow: 0.5rem 0.1rem 0 var(--darkBlue);
+
+}
+
+main.pageNotFound>h2 {
+    font-size: 2rem;
+    margin: 0 auto;
+
+}
+
+main.pageNotFound>h1>span>i {
+    filter: drop-shadow(0.5rem 0.1rem 0 var(--darkBlue));
+    animation-name: casper;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+
+}
+
+main.pageNotFound>p {
+    margin-bottom: 0.5rem;
+    max-width: 80%;
+}
+
+.pageNotFoundLink {
+    background-color: var(--darkBlue);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .2rem .5rem;
+    border-radius: .5rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.pageNotFoundLink:hover {
+    color: var(--lighterBlue);
+    transform: scale(1.05, 1.05)
+}
+
+@keyframes casper {
+    from {
+        transform: translateY(2rem);
+    }
+
+    to {
+        transform: translateY(-2rem);
+    }
+}
+
+@media (max-width: 768px) {
+    main.pageNotFound>h1 {
+        font-size: 7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    main.pageNotFound>h2 {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* 404 Page Not Found styling */
+
+
+/* Loading styling */
+
+.loadingContainer {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    align-items: center;
+}
+
+.loadingCircle {
+    fill: var(--lighterBlue);
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Loading styling */
+
+
+
+/* Bmi widget styling */
+
+.bmiWidgetContainer {
+    margin: 0 auto;
+    width: 27rem;
+    border: 0.2rem solid var(--lighterBlue);
+    border-radius: 0.25rem;
+    background-color: var(--richBlack);
+    padding: 1rem;
+}
+
+
+
+div.bmiWidgetContainer>h2,
+div.bmiWidgetContainer>div>h3 {
+    padding: 1rem;
+}
+
+div.bmiWidgetContainer>div>p {
+    height: 1.2rem;
+    color: var(--lighterBlue);
+}
+
+.bmiForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+
+form.bmiForm>div>p {
+    height: 1.2rem;
+    color: var(--lighterBlue);
+
+}
+
+form.bmiForm>div>label {
+    padding: 0rem 0.2rem;
+
+}
+
+form.bmiForm>div:nth-child(1)>input {
+    width: 12rem;
+    background-color: var(--darkBlue);
+    color: var(--lighterBlue);
+    font-weight: bold;
+    font-size: large;
+}
+
+form.bmiForm>div:nth-child(2)>input {
+    width: 11.5rem;
+    background-color: var(--darkBlue);
+    color: var(--lighterBlue);
+    font-weight: bold;
+    font-size: large;
+}
+
+.bmiButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.bmiTitle {
+    color: var(--mediumBlue);
+}
+
+.bmiResultsTitle {
+    color: var(--mediumBlue);
+}
+
+form.bmiForm>div>label {
+    color: var(--lighterBlue);
+}
+
+div.bmiButtons>button {
+    background-color: var(--lighterBlue);
+    font-weight: bolder;
+    font-size: large;
+    width: 15rem;
+    border: 0.1rem solid var(--mediumBlue);
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+div.bmiButtons>button:hover {
+    background-color: var(--mediumBlue);
+}
+
+/* Media query for resizing the bmi container which is located on my profile page of the user */
+
+@media (max-width: 460px) {
+    .bmiWidgetContainer {
+        width: 400px;
+        height: auto;
+    }
+
+    div.bmiWidgetContainer>div>p {
+        height: auto;
+    }
+}
+
+@media (max-width: 435px) {
+    .bmiTitle {
+        font-size: larger;
+    }
+
+    .bmiResultsTitle {
+        font-size: large;
+    }
+
+    div.bmiButtons>button {
+        font-size: medium;
+    }
+
+    form.bmiForm>div:nth-child(1)>input,
+    form.bmiForm>div:nth-child(2)>input {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 421px) {
+    form.bmiForm>div:nth-child(2)>input {
+        width: 11.5rem;
+        margin-left: 2.5rem;
+    }
+
+    div.bmiButtons>button {
+        width: 12rem;
+    }
+
+    div.bmiWidgetContainer>form.bmiForm>div>p {
+        height: auto;
+    }
+
+
+    form.bmiForm>div:nth-child(1)>input {
+        width: 11.5rem;
+        margin-left: 2.5rem;
+    }
+
+    form.bmiForm>div>label {
+        margin-left: 5.7rem;
+    }
+
+}
+
+
+@media (max-width: 420px) {
+    .bmiWidgetContainer {
+        width: 300px;
+        height: auto;
+    }
+}
+
+
+/* Media query for resizing the bmi container which is located on my profile page of the user */
+
+/* Bmi widget styling */
+
+/* Map styling */
+
+.map-container {
+    height: 345px;
+    width: 504px;
+
+}
+
+div.mapboxgl-popup-content {
+    background-color: var(--mediumBlue);
+}
+
+div.mapboxgl-popup-anchor-bottom>div.mapboxgl-popup-tip {
+    border-top-color: var(--mediumBlue);
+
+}
+
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip {
+    border-bottom-color: var(--mediumBlue);
+}
+
+
+div.mapboxgl-popup-content>p {
+
+    padding: 0.5rem 1.5rem;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+button.mapboxgl-popup-close-button {
+    top: 2px;
+    right: 2px;
+    padding-left: 0.3rem;
+    padding-bottom: 0.2rem;
+    padding-right: 0.3rem;
+    border: 0.1rem solid var(--lighterBlue);
+    border-radius: 0.1rem;
+    background-color: var(--darkBlue);
+    font-weight: bold;
+}
+
+button.mapboxgl-popup-close-button:hover {
+    background-color: var(--richBlack);
+}
+
+@media (max-width: 425px) {
+    div.mapboxgl-popup-content>p {
+        font-size: smaller;
+        padding: 0.5rem 1rem;
+    }
+
+}
+
+/* Map styling */
+
+/* FAQ styling */
+
+.faqTitle,
+.faqParagraph {
+    text-align: center;
+    padding: 1rem;
+
+
+}
+
+.spanFaqParagraphIcons {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.faqDropdown {
+    border: 0.1rem solid var(--lighterBlue);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.faqTitleContainer {
+
+    margin: 0rem auto;
+    max-width: 1440px;
+    border-left: 0.2rem solid var(--lighterBlue);
+    border-right: 0.2rem solid var(--lighterBlue);
+
+    background-color: var(--lighterBlue);
+
+}
+
+.faqParagraphContainer {
+
+    margin: 0rem auto;
+    max-width: 1440px;
+    border-left: 0.2rem solid var(--lighterBlue);
+    border-right: 0.2rem solid var(--lighterBlue);
+    background-color: var(--lighterBlue);
+
+}
+
+.faqWrapper {
+
+    margin: 0rem auto;
+    max-width: 1440px;
+    background-color: var(--mediumBlue);
+}
+
+div.faqDropdown>div:nth-child(1),
+div.faqDropdown>div:nth-child(2),
+div.faqDropdown>div:nth-child(3),
+div.faqDropdown>div:nth-child(4) {
+    border-bottom: 0.1rem solid var(--lighterBlue);
+}
+
+.faqContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.faqContainer:hover {
+    cursor: pointer;
+    background-color: var(--darkBlue);
+}
+
+.minusCircleIcon {
+    fill: rgb(177, 23, 23);
+    background-color: var(--richBlack);
+    font-size: 2rem;
+    border: 0.1rem solid var(--lighterBlue);
+    border-radius: 1rem;
+}
+
+.plusCircleIcon {
+    fill: rgb(30, 211, 54);
+    background-color: var(--richBlack);
+    font-size: 2rem;
+    border: 0.1rem solid var(--lighterBlue);
+    border-radius: 1rem;
+}
+
+
+.questions {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+
+
+
+}
+
+
+
+.answers {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: var(--richBlack);
+    border-top: 0.1rem solid var(--lighterBlue);
+
+}
+
+div.answers>p {
+    text-align: left;
+    font-weight: 500;
+
+}
+
+/* Media query for the expand and collapse buttons + and - and resize title*/
+
+@media (max-width: 600px) {
+    .faqContainer {
+        flex-direction: column;
+    }
+
+
+    .faqContainer>div:nth-child(2) {
+        align-self: flex-end;
+    }
+}
+
+
+@media (max-width: 650px) {
+
+    .faqTitle {
+        font-size: x-large;
+    }
+
+}
+
+/* Media query for the expand and collapse buttons + and - and resize title */
+
+/* FAQ styling */
+
+
+/* Contact Page Styling */
+
+.contactPageContainer {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-around;
+    border-right: 0.2rem solid var(--mediumBlue);
+    border-left: 0.2rem solid var(--mediumBlue);
+    border-top: 0.2rem solid var(--mediumBlue);
+    background-color: var(--mediumBlue);
+
+}
+
+.contactPageHeader {
+    max-width: 1440px;
+    margin: 0 auto;
+    border-right: 0.2rem solid var(--mediumBlue);
+    border-left: 0.2rem solid var(--mediumBlue);
+    border-top: 0.2rem solid var(--mediumBlue);
+    background-color: var(--lighterBlue);
+}
+
+.contactPageHeader>h1 {
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.contactHoursSpan {
+    margin-left: 0.5rem;
+}
+
+.contactInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 1rem;
+    border: 0.2rem solid var(--lighterBlue);
+    height: 350px;
+
+}
+
+.contactInfoContainer>h2 {
+    padding-bottom: 2rem;
+
+}
+
+
+
+.contactPageMap {
+    border: 0.2rem solid var(--lighterBlue);
+
+}
+
+/* Contact Page Styling */
+
+
+/* Media query for contactpage info and map */
+
+@media (max-width: 1000px) {
+    .contactPageContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+    }
+
+    .contactInfoContainer {
+        border: none;
+        height: auto;
+    }
+
+    .contactInfoContainer>h2 {
+        align-self: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .map-container {
+        width: 500px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 520px) {
+    .map-container {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 425px) {
+    .map-container {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+/* Media query for contactpage info and map */
+
+
+/* Media query for resizing section title */
+
+@media (max-width: 650px) {
+
+    .contactPageHeader>h1 {
+        font-size: x-large;
+    }
+
+    .contactInfoContainer>h2 {
+        font-size: large;
+    }
+
+}
+
+/* Media query for resizing section title */
+
+/* Profile Page Styling */
+
+
+.myProfileContainer {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-right: 0.2rem solid var(--mediumBlue);
+    border-left: 0.2rem solid var(--mediumBlue);
+    border-top: 0.2rem solid var(--mediumBlue);
+    padding-bottom: 1rem;
+
+}
+
+.myProfileContainer>div {
+    padding: 1rem 0rem;
+
+}
+
+div.myProfileContainer>div:nth-child(2) {
+    align-self: center;
+}
+
+.personalInformationContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+
+}
+
+.personalInformationContainer>h2.personalInformationTitle {
+    align-self: center;
+    color: var(--lighterBlue);
+}
+
+div.personalInformationContainer>div>svg {
+    height: 200px;
+    width: 200px;
+    background-color: var(--mediumBlue);
+    border-radius: 50%;
+
+}
+
+div.personalInformationContainer>div {
+
+    align-self: center;
+
+}
+
+
+.myFavoritesContainer {
+    max-width: 1440px;
+    margin: 0 auto;
+    border-right: 0.2rem solid var(--mediumBlue);
+    border-left: 0.2rem solid var(--mediumBlue);
+    border-top: 0.2rem solid var(--mediumBlue);
+}
+
+.myFavoritesContainer>h2 {
+    background-color: var(--lighterBlue);
+    margin: 0 auto;
+    padding: 1rem;
+    border-bottom: 0.2rem solid var(--mediumBlue);
+
+}
+
+
+.myFavouritesListItemsContainer {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-color: var(--darkBlue);
+}
+
+.myFavouritesListItemsContainer>div {
+    border: 0.15rem solid var(--lighterBlue);
+    background-color: var(--richBlack);
+    border-radius: 0.25rem;
+    box-shadow: 0.2rem 0.4rem 0.5rem var(--richBlack);
+}
+
+.myFavouritesListItemsContainer>div>img {
+    height: 250px;
+    width: 400px;
+
+
+}
+
+.myFavouritesListItemsContainer>div {
+    position: relative;
+}
+
+.myFavouritesListItemsContainer>div>button {
+    background-color: var(--lighterBlue);
+    color: var(--eggshell);
+    font-weight: bolder;
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0.2rem;
+    padding: 0.2rem 0.5rem;
+    border: 0.15rem solid var(--darkBlue);
+    border-radius: 0.2rem;
+}
+
+.myFavouritesListItemsContainer>div>button:hover {
+    cursor: pointer;
+    background-color: var(--mediumBlue);
+
+}
+
+.myFavouritesListItemsContainer>div>button:active {
+
+    background-color: var(--richBlack);
+}
+
+.firstAndLastNameTitle {
+    color: var(--mediumBlue);
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.firstAndLastNameValue {
+    color: var(--lighterBlue);
+    font-weight: bolder;
+}
+
+.newFirstAndLastNameLabel {
+    color: var(--mediumBlue);
+    font-weight: 700;
+}
+
+.editForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.editButton {
+
+    border: transparent;
+    background-color: transparent;
+    font-size: large;
+    margin-left: 0.5rem;
+}
+
+.editButton:hover {
+    cursor: pointer;
+}
+
+
+.editInput {
+    width: 14.8rem;
+    background-color: var(--darkBlue);
+    font-size: medium;
+    font-weight: 700;
+    color: var(--lighterBlue);
+    margin-bottom: 0.5rem;
+}
+
+.saveAndCancelButton {
+    background-color: var(--lighterBlue);
+    font-weight: bold;
+    font-size: medium;
+    color: var(--eggshell);
+    width: 7.4rem;
+    border: 0.1rem solid var(--mediumBlue);
+    border-radius: 0.2rem;
+    margin-top: 0.5rem;
+    padding: 0.2rem;
+    cursor: pointer;
+
+}
+
+.saveAndCancelButton:hover {
+
+    background-color: var(--mediumBlue);
+
+}
+
+.myFavouritesListParagraphs {
+    max-width: 90%;
+}
+
+@media (max-width: 825px) {
+    .myProfileContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 435px) {
+    .myFavouritesListItemsContainer>div>img {
+        width: 300px;
+        height: 150px;
+    }
+
+    div.personalInformationContainer>div>svg {
+        width: 150px;
+        height: 150px;
+    }
+
+    .personalInformationContainer>h2.personalInformationTitle {
+        font-size: larger;
+
+    }
+
+    .myFavoritesTitle {
+        font-size: larger;
+    }
+
+    .myFavouritesListParagraphs {
+        max-width: 80%;
+    }
+
+    .editButton {
+        font-size: medium;
+        right: 0.8rem;
+        top: 11.3rem;
+    }
+
+}
+
+/* Profile Page Styling */
+
+/* Login and Register Styling */
+
+
+.loginAndRegisterFormWrapper {
+
+    border-top: 0.2rem solid var(--mediumBlue);
+    border-right: 0.2rem solid var(--mediumBlue);
+    border-left: 0.2rem solid var(--mediumBlue);
+    padding: 1rem;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.loginAndRegisterFormContainer {
+    margin: 0 auto;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem solid var(--mediumBlue);
+    border-radius: 0.2rem;
+    background-color: var(--lighterBlue);
+
+}
+
+.loginAndRegisterForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.loginAndRegisterForm>h1,
+.loginAndRegisterForm>p {
+
+    color: var(--darkBlue);
+}
+
+.loginAndRegisterForm>p>input {
+
+    text-align: center;
+    color: var(--darkBlue);
+    background-color: lightgray;
+    border: 0.1rem solid var(--darkBlue);
+    border-radius: 0.2rem;
+}
+
+.loginAndRegisterForm>p>button {
+    padding: 0.2rem 1rem;
+    margin-top: 0.3rem;
+    background-color: var(--mediumBlue);
+    font-size: medium;
+    font-weight: 500;
+    color: var(--eggshell);
+    border-radius: 0.25rem;
+    border: 0.01rem solid var(--darkBlue);
+}
+
+.loginAndRegisterForm>p>button:hover {
+    cursor: pointer;
+    background-color: var(--darkBlue);
+}
+
+
+
+/* Media query for resizing login and register form containers */
+
+@media (max-width: 335px) {
+    .loginAndRegisterFormContainer {
+        width: 250px;
+        height: 350px;
+    }
+}
+
+/* Media query for resizing login and register form containers */
+
+/* Login and Register Styling */
+
+/* Add to favorites button on the Sport Details Page - only visible if user is logged in*/
+
+.addToFavoritesAndBackButtonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.addToFavoritesButton {
+
+    padding: 0.5rem 1rem;
+    font-weight: bolder;
+    text-align: center;
+    outline: 0.2rem outset var(--lighterBlue);
+    background-color: var(--darkBlue);
+
+
+
+
+}
+
+.addToFavoritesButton:hover {
+    cursor: pointer;
+    color: var(--mediumBlue);
+    background-color: var(--richBlack);
+
+}
+
+.addToFavoritesButton:active {
+    transform: translateY(0.2rem);
+    outline: 0.2rem outset var(--lighterBlue);
+}
+
+@media (max-width: 521px) {
+    .addToFavoritesButton {
+        padding: 0.1rem 0.25rem;
+    }
+}
+
+/* Add to favorites button on the Sport Details Page - only visible if user is logged in */
+
+/* Modal styling */
+
+.modalBoxContainer {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(3, 3, 3, 0.1);
+    z-index: 1;
+}
+
+.modalBackground {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: fixed;
+    background: var(--lighterBlue);
+    border: 0.2rem solid var(--mediumBlue);
+    width: 30rem;
+    height: 10rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.25rem;
+    box-shadow: 0.2rem 0.4rem 0.5rem var(--richBlack);
+
+}
+
+div.modalBackground>div>p {
+    font-weight: 700;
+    color: var(--eggshell);
+}
+
+.modalButtonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+div.modalButtonsContainer>button:nth-child(1) {
+    width: 6rem;
+    padding: 0.2rem 1rem;
+    background-color: var(--mediumBlue);
+    font-size: medium;
+    font-weight: 700;
+    color: var(--eggshell);
+    border-radius: 0.25rem;
+    border: 0.1rem solid var(--darkBlue);
+    cursor: pointer;
+
+}
+
+div.modalButtonsContainer>button:nth-child(2) {
+    width: 6rem;
+    padding: 0.2rem 1rem;
+    background-color: var(--mediumBlue);
+    font-size: medium;
+    font-weight: 700;
+    color: var(--eggshell);
+    border-radius: 0.25rem;
+    border: 0.1rem solid var(--darkBlue);
+    cursor: pointer;
+}
+
+div.modalButtonsContainer>button:nth-child(1):hover,
+div.modalButtonsContainer>button:nth-child(2):hover {
+    background-color: var(--darkBlue);
+}
+
+/* Media query for modal box resizing */
+
+
+@media (max-width: 510px) {
+    .modalBackground {
+        width: 350px;
+        height: 150px;
+
+    }
+}
+
+@media (max-width: 375px) {
+    .modalBackground {
+        width: 305px;
+        height: 135px;
+    }
+}
+
+
+/* Media query for modal box resizing */
+
+
+/* Modal styling */
